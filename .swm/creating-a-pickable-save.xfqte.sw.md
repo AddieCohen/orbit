@@ -1,18 +1,18 @@
 ---
 id: xfqte
-name: Creating a Pickable draft
+name: Creating a Pickable save
 file_version: 1.0.2
-app_version: 0.9.3-5
+app_version: 0.9.4-1
 file_blobs:
   src/OrbitGl/TimeGraph.h: 6c6930cbcac7aa0c3a15ab693424581f8c7b69c7
   src/OrbitGl/TrackContainer.h: 3fd2504052ce1022ad1bedecb2ce764e92757cc2
   src/OrbitGl/TrackContainer.cpp: 1b1faf934019ed6db45408b0cf848fc63b5d028c
-  src/OrbitGl/PickingManager.h: 9d8a448058ca78a1262a029eb1e9c2f68804940a
-  src/OrbitGl/CaptureViewElement.h: 412f8063f976040de4c684657adf1cb88067e255
   src/OrbitGl/CallstackThreadBar.h: a110b63f9947cc6ad87efc65713bfe1707282383
-  src/OrbitGl/TimelineUi.h: 5e559bc6d0f4f4b267b85939ee0d690536605bcd
-  src/OrbitGl/ThreadStateBar.h: 11d30a02afcf50f1b584104bcb2ac7bd0f2bc930
+  src/OrbitGl/CaptureViewElement.h: 412f8063f976040de4c684657adf1cb88067e255
+  src/OrbitGl/PickingManager.h: 9d8a448058ca78a1262a029eb1e9c2f68804940a
   src/OrbitGl/ThreadBar.h: 6bb781e59876fe8a4f35fd692a53c61b00a8f737
+  src/OrbitGl/ThreadStateBar.h: 11d30a02afcf50f1b584104bcb2ac7bd0f2bc930
+  src/OrbitGl/TimelineUi.h: 5e559bc6d0f4f4b267b85939ee0d690536605bcd
 ---
 
 This document describes what a Pickable is and how to create a new one.
